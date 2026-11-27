@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header id = "top">
+        <button onclick="toggleMenu()" class="menuButton">&equiv;</button>
+        <h1>Trips to central Asia</h1>
+        <nav onclick="toggleMenu()" class="myNav">
+            <a href="index.html">home</a>
+            <a href="contact.html">contact</a>
+            <a href="about.html">about-us</a>
+            
+        </nav>
+    </header>
+    <main>
+        
+        <div class="card box1">
+            <div class="imgBox">
+                <img src="altai mountains.jpg" alt="">
+            </div>
+            <a href="altai.html">Altai republic 7 days</a>
+        </div>
+        
+        
+        <div class="card box2">
+            <div class="imgBox">
+                <img src="georgian_caucasus.jpg" alt="">
+            </div>
+            <a href="georgia.html">Georgia 10 days</a>
+        </div>
+        
+        
+        <div class="card box3">
+            <div class="imgBox">
+                <img src="agri_dagi.jpg" alt="">
+            </div>
+            <a href="turkey.html">Turkey 5 days</a>
+        </div>
+        
+        
+        <div class="card box4">
+            <div class="imgBox">
+                <img src="issyk-kul-horses.jpg" alt="">
+            </div>
+            <a href="kyrgyzstan.html">Kyrgyzstan 6 days</a>
+        </div>
+        
+        
+        <div class="card box5">
+            <div class="imgBox">
+                <img src="kazakhstan.jpg" alt="">
+            </div>
+            <a href="kazakhstan.html">Kazakhstan 17 days</a>
+        </div>
+        
+        
+        <div class="card box6">
+            <div class="imgBox">
+                <img src="xinjiang-scenery.webp" alt="">
+            </div>
+            <a href="china.html">China 5 days</a>
+        </div>
+    </main>
+    <footer>
+        <a href="contact.html">contact</a>
+        <a href="#top">back to top</a>
+    </footer>
+    <script>
+
+    function toggleMenu(){
+        document.querySelector("nav").classList.toggle("hidden")
+    }
+
+</script>
+</body>
+</html>
